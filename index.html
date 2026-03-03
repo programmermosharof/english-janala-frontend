@@ -24,9 +24,10 @@
     <link rel="icon" href="assets/logo.png" type="image/x-icon">
 </head>
 <body>
-<header>
+<header class="bg-base-100 shadow-sm">
         <!-- Navigation Bar -->
-<div class="navbar bg-base-100 shadow-sm">
+         <!-- w-11/12 mx-auto -->
+<div class="navbar  ">
   <div class="navbar-start">
     <div class="dropdown ">  
       <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -85,20 +86,43 @@
 
 
 </header>
-<!-- hero Section -->
-<section>
-    <!-- Left Site -->
-    <div class="content">
-        <h2><span>English</span> is Easy</h2>
-        <p>আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
 
-    </div>
+<main>
+<!-- hero Section -->
+<section class="flex flex-col-reverse md:flex-row justify-between items-center gap-10 py-5 w-11/12 mx-auto">
+    <!-- Left Site -->
+    <div class="content flex-1 text-center md:text-left">
+        <h2 class="text-4xl font-bold mb-8"><span class="text-sky-400">English</span> is Easy!!</h2>
+        <p class="bangla-font">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+<!-- --------- Login Form --------------------- -->
+
+
+
+  <fieldset class="flex flex-col items-start gap-4  w-full md:max-w-md mt-4">
+  
+  <input type="text" class="input " placeholder="Enter Your Name" />
+  
+  <input type="password" class="input " placeholder="Password" minlength="6" maxlength="6" />
+
+  <button class="btn btn-primary px-6 py-2">Get Started</button>
+
+</fieldset>
+  
+
+</div>
     <!-- Right Site -->
-    <div class="hero-image">
+    <div class="hero-image flex-1 ">
         <img src="assets/hero-student.png" alt="Hero Image" >
     </div>
 
 </section>
+<!-- Hero section complete  -->
+
+
+
+
+
+</main>
 
   
 
